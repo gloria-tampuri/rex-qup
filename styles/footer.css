@@ -6,13 +6,27 @@ footer{
 
 .bigger-columns{
     display: flex;
-    gap: 2rem;
+    
     padding: 2rem 0;
+}
+
+.rows{
+    margin: 1rem 0;
 }
 
 .rows li{
 list-style: none;
 font-size:0.9rem;
+}
+
+.copyright{
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+.copyright span {
+
 }
 
 
