@@ -6,7 +6,7 @@ footer{
 
 .bigger-columns{
     display: flex;
-    
+    justify-content: space-between;
     padding: 2rem 0;
 }
 
@@ -22,6 +22,12 @@ list-style: none;
 font-size:0.8rem;
 }
 
+footer p{
+    padding: 0.5rem;
+}
+hr{
+    color: rgb(241, 241, 241);
+}
 .copyright{
     width: fit-content;
     margin: 0 auto;

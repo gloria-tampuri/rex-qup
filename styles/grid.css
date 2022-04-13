@@ -38,7 +38,7 @@
     border-radius: 15px;
     position: relative;
     aspect-ratio: 1/0.5;
-    /*  */
+    
 }
 
 .imagediv{
@@ -46,9 +46,15 @@
     margin: 0 auto;
     width: 20rem;
     display: block;
-    aspect-ratio: 1/1;
-    object-fit:cover;
+    aspect-ratio: 16/9;    object-fit:cover;
    
+   
+}
+
+.imagediv img{
+
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
 }
 
 
