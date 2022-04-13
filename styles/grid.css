@@ -59,6 +59,8 @@
     color: white;
     text-align: center;
     padding: 1rem;
+    border-bottom-right-radius: 15PX;
+    border-bottom-left-radius: 15PX;
 }
 
 .callNow{
