@@ -8,7 +8,7 @@
     width: fit-content;
     background-image:linear-gradient(101.43deg, #FBB339 -10.26%, #0C2850 94.64%);
     color: white;
-    padding: 1rem;
+    padding: 0.2rem 1rem;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
 }
@@ -86,5 +86,9 @@
     #griddy{
         width: 100%;
     
+    }
+
+    #feature-heading h2{
+        font-size: 2rem;
     }
 }

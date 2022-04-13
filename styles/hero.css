@@ -56,7 +56,11 @@
         }
      }
     @media (max-width: 700px){
-        
+        #hero-page{
+            height: 70vh;
+            display: grid;
+            place-content: center;
+        }
         #hero-page{
             text-align: center;
         }
