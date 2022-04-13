@@ -1,0 +1,24 @@
+footer{
+    background-color: #0C2850;
+    color: white;
+    padding: 2rem;
+}
+
+.bigger-columns{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.rows li{
+list-style: none;
+font-size:0.9rem;
+}
+
+
+@media (max-width: 700px){
+    .bigger-columns{
+        flex-direction: column;
+        padding: 2rem 0;
+    }
+}

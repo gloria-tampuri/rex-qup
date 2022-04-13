@@ -1,0 +1,69 @@
+.modal{
+    position: fixed;
+    top:2%;
+    left: 5%;
+    width: 90%;
+    height: 50%;
+    background-color:#0C2850;
+    color: white;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow:  0 2px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    
+}
+
+#modal-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+#modal-head svg {
+width: 2rem;
+}
+
+.modal nav ul li{
+    list-style: none;
+    padding: 1rem 0;
+}
+
+.modal nav ul hr{
+    color: rgb(202, 198, 198);
+}
+
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.123);
+    display: none;
+}
+#menu {
+    display: none;
+}
+#menu svg{
+    margin-left: 1.8rem;
+    width: 2.5rem;
+  
+    /* visibility: hidden; */
+}
+
+
+@media (max-width: 700px){
+    #menu{
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+    }
+    #menu h1{
+        display:inline;
+        font-size: 1.2rem;
+    }
+    #menu svg{
+        display: inline;
+    }
+}
+
