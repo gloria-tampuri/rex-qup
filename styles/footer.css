@@ -13,10 +13,13 @@ footer{
 .rows{
     margin: 1rem 0;
 }
+.rows h4{
+    margin: 0.5rem 0;
+}
 
 .rows li{
 list-style: none;
-font-size:0.9rem;
+font-size:0.8rem;
 }
 
 .copyright{

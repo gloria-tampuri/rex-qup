@@ -2,8 +2,8 @@
     position: fixed;
     /* top:0;
     left: 5%; */
-    width: 100%;
-    height: 100%;
+    width: 100vh;
+    height: 100vhg;
     background-color:#0C2850;
     color: white;
     padding: 1rem;
