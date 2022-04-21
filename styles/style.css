@@ -50,6 +50,11 @@ color: white;
     gap: 2rem;
 }
 
+.logo h1 a{
+    text-decoration: none;
+    color: var(--primary-blue);
+}
+
 .search-div{
     width: 80%;
     height: fit-content;
@@ -108,6 +113,12 @@ gap:1.5rem;
 header nav ul li{
     list-style: none;
 }
+
+header nav ul li a {
+    text-decoration: none;
+    color: #0C2850;
+}
+
 
 
 

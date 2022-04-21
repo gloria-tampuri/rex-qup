@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/modal.css">
-    <link rel="stylesheet" href="/styles/hero.css">
-    <link rel="stylesheet" href="/styles/grid.css">
-    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
     <script src="modal.js" defer></script>
-    <title>GABNET</title>
+    <title>Document</title>
 </head>
-
 <body>
     <div class="backdrop"></div>
 
     <aside class="modal">
         <nav>
             <div id="modal-head">
-                <h1>GABNET</h1>
+                <h1><a href="index.html">GABNET</a></h1>
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" id="hide" viewBox="0 0 20 20"
                     fill="currentColor">
                     <path fill-rule="evenodd"
@@ -53,23 +50,23 @@
             </div>
 
             <div class="logo">
-                <h1>GABNET</h1>
+                <h1><a href="index.html">GABNET</a></h1>
 
-                <div class="search-div">
+                <!-- <div class="search-div">
                     <input type="search" id="search" placeholder="Search for products,Brands and Categories">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor" stroke-width="2">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                     </svg>
-                </div>
+                </div> -->
             </div>
             <div class="navigation">
                 <nav>
                     <ul>
                         <li><a href=""> Explore</a></li>
                         <li> <a href=""> Services</a></li>
-                        <li> <a href="contact.html">Contact</a></li>
+                        <li> <a href="contact.html" class="current-page">Contact</a></li>
                     </ul>
                 </nav>
                 <!-- <a href="" class="sing-in">Sign in</a> -->
@@ -79,102 +76,79 @@
     </div>
 
     <main>
-        <div id="hero-page">
+        <div id="topic">
+            <h1>Contact Us</h1>
+            <p>Any question or remarks? Just write us a message!</p>
+        </div>
 
-            <div class="words">
-                <h1> Providing Solutions to all your branding needs</h1>
-                <p class="sub-p">GABNET has the largest collection of printers in Ghana, including Laserjet Printers,
-                    Deskjet, Officejet, link-jet printers, Large Format Printers, Photo Printers for Office, Home and
-                    Large-Scale Commercial Printing </p>
-                <a href="#">Explore</a>
+        <div id="main-layout">
+            <div class="our-contact">
+                <h2>
+                    Contact Information
+                </h2>
+                <p> Fill up the form and our team will get back to you within 24 hours</p>
+
+                <div class="contact-section">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                      </svg>
+
+                     <p>+233 24123 4567 </p> 
+                 </div>
+                 <div class="contact-section">
+                    <img src="/svgfiles/email.svg" alt="">
+
+                      <p>hello@gabnet.info</p>
+                 </div>
+
+                 <div class="contact-section">
+                     <img src="svgfiles/location.svg" alt="">
+                      <p>House Party Main Building, Adjacent SG Bank. New Town, Accra-Ghana</p>
+                 </div>
+
+                 <div id="socials">
+                    <img src="/svgfiles/facebook.svg" alt="facebook">
+                    <img src="/svgfiles/twitter.svg" alt="twitter">
+                    <img src="/svgfiles/instagram.svg" alt="instagram">
+                 </div>
+
+                 <div class="cone">
+
+                 </div>
+                 <div class="circle">
+
+                 </div>
+
             </div>
 
-        </div>
+            <div class="your-contact">
+                <form action="">
+                    <div class="form-section">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="John">
+                    </div>
 
-        <div id="feature-heading">
-            <h2>Feature Products</h2>
-        </div>
+                    <div class="form-section">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Doe">
+                    </div>
 
+                    <div class="form-section">
+                        <label for="mail">Mail</label>
+                        <input type="email" name="mail" id="mail" placeholder="Enter email">
+                    </div>
 
-        <div class="grid-container">
-
-            <div id="griddy">
-
-                <div class="card">
-                    <div class="imagediv"><img src="/images/tranparent/GABNET PRODUCT PICTURES/CN1.jpg" alt="image1">
+                    <div class="form-section">
+                        <label for="phone">Phone</label>
+                        <input type="tel" name="phone" id="phone" placeholder="Enter phone number">
+                    </div>  
+                    <div class="form-section textarea">
+                        <label for="message"> Message</label>
+                       <textarea name="" id="" cols="30" rows="10"></textarea>
                     </div>
-                    <div class="description">
-                        <h4>CNC Router</h4>
-                        <p>YH1325, 3KW, 220V, 3STEP MOTOR, METAL STONE CUTTING</p>
-                    </div>
-                    <div class="callNow">
-                        <p>Call Now</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="imagediv"><img src="/images/tranparent/GABNET PRODUCT PICTURES/CO1.jpg" alt="image1">
-                    </div>
-                    <div class="description">
-                        <h4>LASER MACHINE YH6040</h4>
-                        <p>YH6040,WORKING AREA 600MM X 400MM, 60WATTS,WATER CHILLER</p>
-                    </div>
-                    <div class="callNow">
-                        <p>Call Now</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="imagediv"><img src="/images/tranparent/GABNET PRODUCT PICTURES/CO2.jpg" alt="image1">
-                    </div>
-                    <div class="description">
-                        <h4>LASER MACHINE YH1390</h4>
-                        <p>YH1390, WORKING 3FT X4FT, 120WATTS(OPTION), WATER CHILLER, ENGRAVING SPEED 0-800M/S, CUTTING
-                            SPEED, 200M/S, WEIGHT 450KG</p>
-                        <p>MEDIA ACRYLIC CUTTING, PLEXIGLASS CRAFTS, JEWELRY</p>
-                    </div>
-                    <div class="callNow">
-                        <p>Call Now</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="imagediv"><img src="/images/tranparent/GABNET PRODUCT PICTURES/CP1.jpg" alt="image1">
-                    </div>
-                    <div class="description">
-                        <h4>SKY CUT CUTTING PLOTTER 4FT</h4>
-                        <p>TOUCH SCREEN</p>
-                    </div>
-                    <div class="callNow">
-                        <p>Call Now</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="imagediv"><img src="/images/tranparent/GABNET PRODUCT PICTURES/CO4.jpg" alt="image1">
-                    </div>
-                    <div class="description">
-                        <h4>LASER MACHINE YH6040</h4>
-                        <p>120W</p>
-                    </div>
-                    <div class="callNow">
-                        <p>Call Now</p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="imagediv"><img src="/images/tranparent/GABNET PRODUCT PICTURES/CO5.jpg" alt="image1">
-                    </div>
-                    <div class="description">
-                        <h4>FOCUS LENSE</h4>
-                        <p>18MM</p>
-                    </div>
-                    <div class="callNow">
-                        <p>Call Now</p>
-                    </div>
-                </div>
-
-
+                    <button>SUBMIT</button>   
+                </form>
+               
             </div>
         </div>
     </main>
@@ -249,3 +223,4 @@
     </footer>
 
 </body>
+</html>

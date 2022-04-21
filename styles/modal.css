@@ -19,6 +19,11 @@
     align-items: center;
 }
 
+#modal-head h1 a{
+    text-decoration: none;
+    color: white;
+}
+
 #modal-head svg {
 width: 2rem;
 }
@@ -26,6 +31,10 @@ width: 2rem;
 .modal nav ul li{
     list-style: none;
     padding: 1rem 0;
+}
+.modal nav ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 .modal nav ul hr{
