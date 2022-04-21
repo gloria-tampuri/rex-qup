@@ -71,6 +71,12 @@ body{
 .contact-section a{
     color: white;
     text-decoration: none;
+    border-bottom: 0.01rem solid #FBB339;
+
+}
+
+.contact-section a:hover{
+    color: #FBB339
 }
 
 #socials{
