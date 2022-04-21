@@ -68,6 +68,11 @@ body{
     margin: 0 1rem 0 0;
 }
 
+.contact-section a{
+    color: white;
+    text-decoration: none;
+}
+
 #socials{
     margin-top:7rem;
     
@@ -97,7 +102,7 @@ body{
      .circle{
         height: 7rem;
         width: 7rem;
-        background-color:rgba(54, 125, 224, 0.774);
+        background-color:rgba(40, 101, 187, 0.774);
         border-radius: 100%;
         position:absolute;
         bottom: 10%;
@@ -199,13 +204,22 @@ button{
     }
 
     .form-section{
-        margin: 2rem 0;
+        margin: 1rem 0;
     }
 
     .your-contact{
         margin: 1rem auto;
         border-radius: 15px;
     }
+
+    .form-section label{
+        font-size: 1rem;
+        
+    }
+
+    .textarea textarea{
+        height: 6rem;
+     }
     
     
 }
