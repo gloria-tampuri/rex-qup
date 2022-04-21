@@ -198,6 +198,10 @@ button{
         flex-direction: column;
     }
 
+    .form-section{
+        margin: 1rem 0;
+    }
+
     .your-contact{
         margin: 1rem auto;
         border-radius: 15px;
