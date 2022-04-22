@@ -68,6 +68,7 @@ border-top-right-radius: 15px;
     padding: 1rem;
     border-bottom-right-radius: 15PX;
     border-bottom-left-radius: 15PX;
+    aspect-ratio: 1/0.5;
 }
 
 .callNow{

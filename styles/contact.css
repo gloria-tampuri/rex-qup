@@ -176,6 +176,10 @@ button{
     right: 0%;
     position: absolute; */
 }
+
+button:hover{
+    background-color: #133058;
+    }
 @media (max-width: 1200px){
     #main-layout{
         width: 90%;

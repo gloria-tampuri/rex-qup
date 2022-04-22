@@ -7,7 +7,7 @@ footer{
 
 .bigger-columns{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     justify-content: space-between;
     padding: 2rem 0;
@@ -34,7 +34,25 @@ hr{
 .copyright{
     width: fit-content;
     margin: 0 auto;
+    
 
+}
+
+.copyright p{
+    font-size: 0.8rem;
+}
+
+.socialfoot{
+    display: flex;
+}
+.socialfoot a{
+    text-decoration: none;
+    color: white;
+}
+
+.socialfoot svg{
+width: 1.3rem;
+color: #FBB339;
 }
 
 
