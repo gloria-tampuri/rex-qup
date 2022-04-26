@@ -107,7 +107,7 @@ background-color: #0C2850;
 }
 
 #our-brands {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
     box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.15);
 
@@ -156,9 +156,14 @@ background-color: #0C2850;
         box-shadow: none;
 
     }
+    #our-brands div img{
+        /* display: block; */
+        padding-right: 0;
+        width: 7rem;
+    }
 
     .putincenter{
-        width: 100%;
+        width: 700px;
         overflow-x: scroll;
     }
 
