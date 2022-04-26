@@ -150,4 +150,16 @@ background-color: #0C2850;
     #service-header{
         width: 80%;
     }
+
+    #our-brands{
+        width: 100%;
+        box-shadow: none;
+
+    }
+
+    .putincenter{
+        width: 100%;
+        overflow-x: scroll;
+    }
+
 }
