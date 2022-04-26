@@ -6,7 +6,7 @@
     border-radius: 15px;
 }
 
-#service-header h1{
+#service-header h2{
     margin: 2rem auto;
     width: fit-content;
     background-image:linear-gradient(101.43deg, #FBB339 -10.26%, #0C2850 94.64%);
@@ -74,7 +74,7 @@ background-color: #0C2850;
 }
 
 
-#service-gallery h1{
+#service-gallery h2{
     margin: 8rem auto 2rem auto;
     width: fit-content;
     background-image:linear-gradient(101.43deg, #FBB339 -10.26%, #0C2850 94.64%);
@@ -109,10 +109,14 @@ background-color: #0C2850;
 #our-brands {
     width: 80%;
     margin: 0 auto;
+    box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.15);
+
+    border-radius: 15px;
+    margin: 8rem auto 1rem auto;
 }
 
-#our-brands h1{
-    margin: 8rem auto 2rem auto;
+#our-brands h2{
+    margin: 0 auto;
     width: fit-content;
     background-image:linear-gradient(101.43deg, #FBB339 -10.26%, #0C2850 94.64%);
     color: white;
@@ -124,14 +128,21 @@ background-color: #0C2850;
 
 #our-brands div{
     display: flex;
+    justify-content: center;
     padding: 1rem;
     margin: 0 auto;
-    background-color: #0C2850;
 }
 
 #our-brands div img{
-    display: block;
+    /* display: block; */
+    padding-right: 2rem;
 }
+
+.putincenter{
+    margin: 0 auto;
+}
+
+
 
 
 

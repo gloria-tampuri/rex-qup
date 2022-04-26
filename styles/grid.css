@@ -42,6 +42,14 @@
     
 }
 
+.description h4{
+    margin-bottom: 0.4rem;
+}
+
+.description p{
+    font-size: 0.9rem;
+}
+
 .imagediv{
     /* padding: 3rem; */
     margin: 0 auto;
@@ -68,7 +76,7 @@ border-top-right-radius: 15px;
     padding: 1rem;
     border-bottom-right-radius: 15PX;
     border-bottom-left-radius: 15PX;
-    aspect-ratio: 1/0.5;
+    aspect-ratio: 1/0.3;
 }
 
 .callNow{
