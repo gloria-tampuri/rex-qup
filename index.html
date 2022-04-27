@@ -8,14 +8,17 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/modal.css">
-    <link rel="stylesheet" href="/styles/hero.css">
-    <link rel="stylesheet" href="/styles/grid.css">
-    <link rel="stylesheet" href="/styles/footer.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/exploreOverlay.css">
     <script src="modal.js" defer></script>
+    <script src="exploreOverlay.js" defer></script>
     <title>GABNET</title>
 </head>
 
-<body>
+<body id="body">
+
     <div class="backdrop"></div>
 
     <aside class="modal">
@@ -30,7 +33,7 @@
                 </svg>
             </div>
             <ul>
-                <li><a href=""> Explore</a></li>
+                <li><a href="" class=""> Explore</a></li>
                 <hr>
                 <li> <a href="services.html"> Services</a></li>
                  <hr>
@@ -39,6 +42,45 @@
             </ul>
         </nav>
     </aside>
+    <article class="explore-overlay">
+        <div class="feature">
+            <ul>
+                <h4>Prints</h4>
+                <li><a href="#">Home Printers</a></li>
+                <li><a href="#">Office Printers</a></li>
+                <li><a href="#">Enterprise Printers</a></li>
+                <li><a href="#">Scanners</a></li>
+                <li><a href="#">Large format printers and plotters</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#">Special print solutions</a></li>
+            </ul>
+
+        </div>
+
+        <div class="feature">
+            <ul>
+                <h4>Pcs</h4>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Desktops</a></li>
+                    <li><a href="#">Gaming</a></li>
+                    <li><a href="#">Monitors</a></li>
+                    <li><a href="#">Business Laptops</a></li>
+                    <li><a href="#">Business Desktops</a> </li>
+                    <li><a href="#">Workstation</a></li>
+            </ul>
+        </div>
+
+        <div class="feature">
+            <ul>
+                <h4>Business Solutions</h4>
+                    <li><a href="#">Branding Solutions</a></li>
+                   <li> <a href="#">3D print</a></li>
+                   <li><a href="#">Leasing</a></li>
+                   <li><a href="#">Retail solutions</a></li>
+            </ul>
+        </div>
+    </article>
+
     <div class="header-cover">
         <header>
 
@@ -67,7 +109,8 @@
             <div class="navigation">
                 <nav>
                     <ul>
-                        <li><a href=""> Explore</a></li>
+                        <li><a href="#" class="explore-tag"> Explore</a>
+                        </li>
                         <li> <a href="services.html"> Services</a></li>
                         <li> <a href="contact.html">Contact</a></li>
                     </ul>
@@ -183,14 +226,15 @@
         <div class="bigger-columns">
             <div class="rows">
 
-                <h4>Abous Us</h4>
-                <li>Contact Us</li>
-                <li>Careers</li>
-                <li>Investor relations</li>
-                <li>Sustainable impact</li>
-                <li>Press center</li>
-                <li>The Garage</li>
+                 <h4>Abous Us</h4>
+                <li>Gabnet Enterprise is a subsidiary</li>
+                 <li> of House Party Computers.</li> 
+                 <li> We deal in the sale of quality</li>
+                 <li>Embroidery Machines,  Large Format </li>
+                 <li> Printing Machines, New/Refurbished</li>
+                 <li>  printers/photocopiers</li>
                 </ul>
+                
             </div>
 
             <div class="rows">
