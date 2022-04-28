@@ -35,11 +35,50 @@ width: 2rem;
 .modal nav ul li a{
     text-decoration: none;
     color: white;
+   
 }
 
 .modal nav ul hr{
     color: rgb(202, 198, 198);
 }
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:  0 2rem;
+    display: none;
+    
+}
+/* .explore__dropdown{
+    display: none;
+} */
+
+.dropdown span svg{
+    width: 1.5rem;
+    font-size: 1rem;
+    color: #FBB339;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.minustoggle{
+    display: none;
+}
+.plustoggle{
+    display:none
+}
+
+
+.drop__toggle{
+    display: none;
+}
+ .drop__toggle a{
+  font-size: 0.9rem;
+  margin: 0.1rem 4rem;
+  padding: 0;
+ 
+ }
 
 
 .backdrop{
@@ -66,6 +105,8 @@ width: 2rem;
     text-decoration: none;
 
 }
+
+
 
 
 @media (max-width: 700px){
