@@ -41,18 +41,32 @@ width: 2rem;
 .modal nav ul hr{
     color: rgb(202, 198, 198);
 }
+.explore__dropdown{
+    display:none;
+}
+
+.explore__close{
+    display: none;
+}
 
 .dropdown{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:  0 2rem;
-    display: none;
+    margin:  0 1rem;
+    
     
 }
-/* .explore__dropdown{
-    display: none;
-} */
+
+.dropdowns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdowns svg{
+    width: 1.5rem;
+    color: #FBB339;
+}
 
 .dropdown span svg{
     width: 1.5rem;
@@ -70,16 +84,15 @@ width: 2rem;
 }
 
 
-.drop__toggle{
+.drop__toggle,.drop__toggle2{
     display: none;
 }
- .drop__toggle a{
+ .drop__toggle a,.drop__toggle2 a{
   font-size: 0.9rem;
-  margin: 0.1rem 4rem;
+  margin: 0.1rem 2rem;
   padding: 0;
  
  }
-
 
 .backdrop{
     position: fixed;
