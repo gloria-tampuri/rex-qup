@@ -161,7 +161,9 @@ background-color: #0C2850;
         padding-right: 0;
         width: 7rem;
     }
-
+    #group-services{
+        gap: 5grem;
+    }
     .putincenter{
         width: 700px;
         overflow-x: scroll;
