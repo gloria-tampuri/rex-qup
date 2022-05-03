@@ -82,7 +82,7 @@ background-color: #0C2850;
     padding: 0.2rem 1rem;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    transform: translateY(-1rem);
+
 }
 
 .gallery{
@@ -161,8 +161,8 @@ background-color: #0C2850;
         padding-right: 0;
         width: 7rem;
     }
-    #group-services{
-        gap: 5grem;
+    .service-card{
+        margin-bottom: 4rem;
     }
     .putincenter{
         width: 700px;
