@@ -114,7 +114,7 @@ border-top-right-radius: 15px;
 
 @media (max-width: 376px){
     #griddy{
-        width: 100%; 
+        width: 80%; 
         margin: 1rem;
     
     }
