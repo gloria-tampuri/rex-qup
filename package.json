@@ -7,16 +7,11 @@
     "start": "lite-server"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gloria-tampuri/gabnet-website.git"
+    "type": "git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gloria-tampuri/gabnet-website/issues"
-  },
-  "homepage": "https://github.com/gloria-tampuri/gabnet-website#readme",
   "dependencies": {
     "lite-server": "^2.6.1"
   }
